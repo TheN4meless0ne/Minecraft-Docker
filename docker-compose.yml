@@ -26,7 +26,7 @@ services:
         better-stats
         tcdcommons
 
-        VANILLATWEAKS_SHARECODE: 54Gte1
+      VANILLATWEAKS_SHARECODE: 54Gte1
     ports:
       - "25565:25565"
       - "8100:8100"
