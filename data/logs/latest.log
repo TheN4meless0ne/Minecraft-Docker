@@ -1,116 +1,154 @@
-[09:29:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Eclipse Adoptium Temurin-21.0.5+11) on Linux 5.15.167.4-microsoft-standard-WSL2 (amd64)
-[09:29:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-132-ver/1.21.1@b48403b (2024-11-21T10:14:27Z) for Minecraft 1.21.1
-[09:29:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[09:29:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[09:29:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
- - AxiomPaper (4.0.2), BlueMap (5.5), SetHome (2.0), WildRTP (2.6.1), WorldEdit (7.3.9+6959-7adf70b)
-[09:29:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:29:33] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[09:29:33] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[09:29:34] [ServerMain/INFO]: No existing world data, creating new world
-[09:29:36] [ServerMain/INFO]: Loaded 1290 recipes
-[09:29:36] [ServerMain/INFO]: Loaded 1399 advancements
-[09:29:36] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[09:29:36] [Server thread/INFO]: Loading properties
-[09:29:36] [Server thread/INFO]: This server is running Paper version 1.21.1-132-ver/1.21.1@b48403b (2024-11-21T10:14:27Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[09:29:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[09:29:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:29:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:29:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
-[09:29:38] [Server thread/INFO]: Default game type: SURVIVAL
-[09:29:38] [Server thread/INFO]: Generating keypair
-[09:29:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:29:38] [Server thread/INFO]: Using epoll channel type
-[09:29:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[09:29:38] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[09:29:39] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
-[09:29:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@9dcae71]
-[09:29:40] [Server thread/INFO]: [WildRTP] Loading server plugin WildRTP v2.6.1
-[09:29:40] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v2.0
-[09:29:40] [Server thread/INFO]: [BlueMap] Loading server plugin BlueMap v5.5
-[09:29:40] [Server thread/INFO]: [AxiomPaper] Loading server plugin AxiomPaper v4.0.2
-[09:29:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:29:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
-[09:29:40] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[09:29:40] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[09:29:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[09:29:42] [Server thread/INFO]: Preparing level "world-2024-12-10"
-[09:29:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:29:50] [Server thread/INFO]: Time elapsed: 2986 ms
-[09:29:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:29:51] [Server thread/INFO]: Time elapsed: 762 ms
-[09:29:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:29:51] [Server thread/INFO]: Time elapsed: 229 ms
-[09:29:51] [Server thread/INFO]: [WildRTP] Enabling WildRTP v2.6.1
-[09:29:51] [Server thread/INFO]: [WildRTP] WildRTP by Joni
-[09:29:51] [Server thread/INFO]: [WildRTP] Thank you for using my plugin!
-[09:29:51] [Server thread/INFO]: [SetHome] Enabling SetHome v2.0
-[09:29:51] [Server thread/INFO]: [BlueMap] Enabling BlueMap v5.5
-[09:29:51] [Server thread/INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
-[09:29:51] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
-[09:29:51] [Thread-9/INFO]: [WildRTP] You are running the latest version!
-[09:29:52] [Server thread/INFO]: [AxiomPaper] Enabling AxiomPaper v4.0.2
-[09:29:53] [Server thread/INFO]: [spark] Starting background profiler...
-[09:29:53] [Server thread/INFO]: Done preparing level "world-2024-12-10" (11.339s)
-[09:29:53] [Server thread/INFO]: Starting remote control listener
-[09:29:53] [Server thread/INFO]: Thread RCON Listener started
-[09:29:53] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[09:29:53] [Server thread/INFO]: Running delayed init tasks
-[09:29:53] [Craft Scheduler Thread - 3 - BlueMap/INFO]: [BlueMap] Loading...
-[09:29:53] [Server thread/INFO]: Done (28.332s)! For help, type "help"
-[09:29:53] [Server thread/INFO]: Timings Reset
-[09:29:53] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[09:29:53] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[09:29:53] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[09:29:53] [RCON Client /0:0:0:0:0:0:0:1 #3/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[09:29:54] [Craft Scheduler Thread - 3 - BlueMap/INFO]: [BlueMap] Loading resources...
-[09:29:55] [Craft Scheduler Thread - 3 - BlueMap/INFO]: [BlueMap] Loading textures...
-[09:29:56] [Craft Scheduler Thread - 3 - BlueMap/INFO]: [BlueMap] Baking resources...
-[09:29:56] [Craft Scheduler Thread - 3 - BlueMap/INFO]: [BlueMap] Resources loaded.
-[09:29:56] [Craft Scheduler Thread - 3 - BlueMap/INFO]: [BlueMap] Initializing Storage: 'file' (Type: 'bluemap:file')
-[09:29:56] [Craft Scheduler Thread - 3 - BlueMap/INFO]: [BlueMap] Loading map 'world_2024_12_10_nether'...
-[09:29:56] [Craft Scheduler Thread - 3 - BlueMap/INFO]: [BlueMap] Loading map 'world_2024_12_10'...
-[09:29:57] [Craft Scheduler Thread - 3 - BlueMap/INFO]: [BlueMap] Loading map 'world_2024_12_10_the_end'...
-[09:29:57] [Craft Scheduler Thread - 3 - BlueMap/INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
-[09:29:57] [Thread-10/INFO]: [BlueMap] WebServer started.
-[09:29:57] [Craft Scheduler Thread - 3 - BlueMap/INFO]: [BlueMap] Loaded!
-[09:30:54] [User Authenticator #0/INFO]: UUID of player TheN4meless0ne is cddc409f-a42d-45e1-9ce1-dde37505da46
-[09:30:55] [Server thread/INFO]: TheN4meless0ne joined the game
-[09:30:55] [Server thread/INFO]: TheN4meless0ne[/172.18.0.1:52260] logged in with entity id 42 at ([world-2024-12-10]6.5, 76.0, 2.5)
-[09:31:09] [Server thread/INFO]: TheN4meless0ne issued server command: /gamemode creative
-[09:31:09] [Server thread/INFO]: [TheN4meless0ne: Set own game mode to Creative Mode]
-[09:33:16] [Server thread/INFO]: TheN4meless0ne lost connection: Disconnected
-[09:33:16] [Server thread/INFO]: TheN4meless0ne left the game
-[09:33:41] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[09:33:41] [Server thread/INFO]: [Rcon: Stopping the server]
-[09:33:41] [RCON Client /0:0:0:0:0:0:0:1 #4/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[09:33:41] [Server thread/INFO]: Stopping server
-[09:33:41] [Server thread/INFO]: [AxiomPaper] Disabling AxiomPaper v4.0.2
-[09:33:41] [Server thread/INFO]: [BlueMap] Disabling BlueMap v5.5
-[09:33:41] [Server thread/INFO]: [BlueMap] Stopping...
-[09:33:43] [Server thread/INFO]: [BlueMap] Saved and stopped!
-[09:33:43] [Server thread/INFO]: [SetHome] Disabling SetHome v2.0
-[09:33:43] [Server thread/INFO]: [WildRTP] Disabling WildRTP v2.6.1
-[09:33:43] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
-[09:33:43] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[09:33:43] [Server thread/INFO]: Saving players
-[09:33:43] [Server thread/INFO]: Saving worlds
-[09:33:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world-2024-12-10]'/minecraft:overworld
-[09:33:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world-2024-12-10'
-[09:33:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world-2024-12-10'
-[09:33:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world-2024-12-10'
-[09:33:45] [Server thread/INFO]: [ChunkHolderManager] Saved 838 block chunks, 713 entity chunks, 3 poi chunks in world 'world-2024-12-10' in 2.29s
-[09:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world-2024-12-10_nether]'/minecraft:the_nether
-[09:33:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world-2024-12-10_nether'
-[09:33:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world-2024-12-10_nether'
-[09:33:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world-2024-12-10_nether'
-[09:33:46] [Server thread/INFO]: [ChunkHolderManager] Saved 815 block chunks, 0 entity chunks, 0 poi chunks in world 'world-2024-12-10_nether' in 0.65s
-[09:33:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world-2024-12-10_the_end]'/minecraft:the_end
-[09:33:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world-2024-12-10_the_end'
-[09:33:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world-2024-12-10_the_end'
-[09:33:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world-2024-12-10_the_end'
-[09:33:46] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world-2024-12-10_the_end' in 0.55s
-[09:33:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world-2024-12-10): All chunks are saved
-[09:33:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:33:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:33:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:57:11] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[10:57:11] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[10:57:11] [ForkJoinPool-1-worker-3/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 26 column 4
+- Unsupported root entry "" at line 26 column 124
+- Unsupported root entry "" at line 28 column 4
+- Unsupported root entry "" at line 28 column 24
+[10:57:11] [ForkJoinPool-1-worker-11/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 27 column 4
+- Unsupported root entry "" at line 27 column 198
+- Unsupported root entry "" at line 29 column 4
+- Unsupported root entry "" at line 29 column 24
+[10:57:11] [main/INFO]: Loading 55 mods:
+	- axiom 4.4.0
+	   |-- com_moulberry_axiomclientapi 1.0.0
+	   \-- com_moulberry_mixinconstraints 1.0.1
+	- betterstats 3.13.4+fabric-1.21.4
+	- bluemap 5.5
+	   \-- com_flowpowered_flow-math 1.0.3
+	- cloth-config 17.0.142
+	   \-- cloth-basic-math 0.6.1
+	- fabric-api 0.111.0+1.21.4
+	   |-- fabric-api-base 0.4.53+453d4f9104
+	   |-- fabric-api-lookup-api-v1 1.6.84+7feeb73304
+	   |-- fabric-biome-api-v1 15.0.4+466a140b04
+	   |-- fabric-block-api-v1 1.0.31+7feeb73304
+	   |-- fabric-block-view-api-v2 1.0.19+7feeb73304
+	   |-- fabric-blockrenderlayer-v1 2.0.7+7feeb73304
+	   |-- fabric-client-tags-api-v1 1.1.27+7feeb73304
+	   |-- fabric-command-api-v1 1.2.61+f71b366f04
+	   |-- fabric-command-api-v2 2.2.40+e496eb1504
+	   |-- fabric-commands-v0 0.2.78+df3654b304
+	   |-- fabric-content-registries-v0 9.1.12+7feeb73304
+	   |-- fabric-convention-tags-v1 2.1.6+7f945d5b04
+	   |-- fabric-convention-tags-v2 2.9.6+466a140b04
+	   |-- fabric-crash-report-info-v1 0.3.6+7feeb73304
+	   |-- fabric-data-attachment-api-v1 1.4.3+9aea556b04
+	   |-- fabric-data-generation-api-v1 22.1.2+466a140b04
+	   |-- fabric-dimensions-v1 4.0.10+7feeb73304
+	   |-- fabric-entity-events-v1 2.0.11+60fccc7604
+	   |-- fabric-events-interaction-v0 4.0.1+a4eebcf004
+	   |-- fabric-game-rule-api-v1 1.0.62+7feeb73304
+	   |-- fabric-item-api-v1 11.1.12+203e6b2304
+	   |-- fabric-item-group-api-v1 4.1.21+7feeb73304
+	   |-- fabric-key-binding-api-v1 1.0.56+7feeb73304
+	   |-- fabric-keybindings-v0 0.2.54+df3654b304
+	   |-- fabric-lifecycle-events-v1 2.5.3+bf2a60eb04
+	   |-- fabric-loot-api-v2 3.0.31+3f89f5a504
+	   |-- fabric-loot-api-v3 1.0.19+203e6b2304
+	   |-- fabric-message-api-v1 6.0.24+7feeb73304
+	   |-- fabric-model-loading-api-v1 4.1.0+7b6b225304
+	   |-- fabric-networking-api-v1 4.3.8+cc0fa2fe04
+	   |-- fabric-object-builder-api-v1 18.0.5+e604fe7f04
+	   |-- fabric-particles-v1 4.0.13+7feeb73304
+	   |-- fabric-recipe-api-v1 8.0.3+fa62a02304
+	   |-- fabric-registry-sync-v0 6.0.1+cc0fa2fe04
+	   |-- fabric-renderer-api-v1 5.0.1+84404cdd04
+	   |-- fabric-renderer-indigo 2.0.1+84404cdd04
+	   |-- fabric-rendering-data-attachment-v1 0.3.57+73761d2e04
+	   |-- fabric-rendering-fluids-v1 3.1.18+7feeb73304
+	   |-- fabric-rendering-v1 10.1.0+7e7568bf04
+	   |-- fabric-resource-conditions-api-v1 5.0.13+203e6b2304
+	   |-- fabric-resource-loader-v0 3.0.10+203e6b2304
+	   |-- fabric-screen-api-v1 2.0.37+7feeb73304
+	   |-- fabric-screen-handler-api-v1 1.3.106+7feeb73304
+	   |-- fabric-sound-api-v1 1.0.32+7feeb73304
+	   |-- fabric-transfer-api-v1 5.4.6+1885ad7404
+	   \-- fabric-transitive-access-wideners-v1 6.3.2+56e78b9b04
+	- fabricloader 0.16.9
+	   \-- mixinextras 0.4.1
+	- ferritecore 7.1.1
+	- java 21
+	- lithium 0.14.3+mc1.21.4
+	- minecraft 1.21.4
+	- nochatreports 1.21.4-v2.11.0
+	- spark 1.10.121
+	   \-- fabric-permissions-api-v0 0.3.3
+	- tcdcommons 3.12.4+fabric-1.21.4
+[10:57:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[10:57:13] [main/INFO]: Compatibility level set to JAVA_17
+[10:57:13] [main/INFO]: Compatibility level set to JAVA_21
+[10:57:13] [main/INFO]: Loading Mixin Plugin for Axiom/4.4.0
+[10:57:13] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[10:57:14] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[10:57:14] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[10:57:14] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[10:57:14] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[10:57:14] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[10:57:14] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[10:57:14] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
+[10:57:14] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[10:57:14] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[10:57:21] [main/INFO]: Initializing Axiom/4.4.0. Build timestamp: 1733654519105
+[10:57:21] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
+[10:57:21] [main/INFO]: Initializing 'TCD Commons API' 3.12.4+fabric-1.21.4 as 'TCDCommonsServer'.
+[10:57:22] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:57:24] [main/INFO]: No existing world data, creating new world
+[10:57:26] [main/INFO]: Loaded 1370 recipes
+[10:57:26] [main/INFO]: Loaded 1481 advancements
+[10:57:26] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.479 ms
+[10:57:26] [Server thread/INFO]: Starting background profiler...
+[10:57:26] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[10:57:26] [Server thread/INFO]: Loading properties
+[10:57:26] [Server thread/INFO]: Default game type: SURVIVAL
+[10:57:26] [Server thread/INFO]: Generating keypair
+[10:57:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:57:27] [Server thread/INFO]: Using epoll channel type
+[10:57:27] [Server thread/INFO]: Preparing level "world-2024-12-10"
+[10:57:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:57:31] [Worker-Main-8/INFO]: Preparing spawn area: 2%
+[10:57:31] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[10:57:32] [Worker-Main-6/INFO]: Preparing spawn area: 2%
+[10:57:32] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[10:57:33] [Worker-Main-5/INFO]: Preparing spawn area: 18%
+[10:57:33] [Worker-Main-6/INFO]: Preparing spawn area: 51%
+[10:57:34] [Worker-Main-9/INFO]: Preparing spawn area: 51%
+[10:57:34] [Server thread/INFO]: Time elapsed: 3118 ms
+[10:57:34] [Server thread/INFO]: Done (6.862s)! For help, type "help"
+[10:57:34] [Server thread/INFO]: Starting remote control listener
+[10:57:34] [Server thread/INFO]: Thread RCON Listener started
+[10:57:34] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[10:57:34] [BlueMap-Plugin-Loading/INFO]: Loading BlueMap...
+[10:57:34] [BlueMap-Plugin-Loading/WARN]: BlueMap is missing important resources!
+[10:57:34] [BlueMap-Plugin-Loading/WARN]: You must accept the required file download in order for BlueMap to work!
+[10:57:34] [BlueMap-Plugin-Loading/WARN]: Please check: /data/config/bluemap/core.conf
+[10:57:34] [BlueMap-Plugin-Loading/INFO]: If you have changed the config you can simply reload the plugin using: /bluemap reload
+[10:57:41] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[10:57:43] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[10:57:44] [Server thread/INFO]: [Rcon: Made TheN4meless0ne a server operator]
+[10:57:44] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[10:57:44] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[10:57:44] [RCON Client /0:0:0:0:0:0:0:1 #3/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[10:58:34] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[10:58:49] [User Authenticator #1/INFO]: UUID of player TheN4meless0ne is cddc409f-a42d-45e1-9ce1-dde37505da46
+[10:58:50] [Server thread/INFO]: TheN4meless0ne[/172.18.0.1:47838] logged in with entity id 18 at (7.5, 73.0, -8.5)
+[10:58:50] [Server thread/INFO]: TheN4meless0ne joined the game
+[10:59:01] [Server thread/INFO]: TheN4meless0ne lost connection: Disconnected
+[10:59:01] [Server thread/INFO]: TheN4meless0ne left the game
+[11:00:01] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:01:54] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:01:54] [Server thread/INFO]: [Rcon: Stopping the server]
+[11:01:54] [RCON Client /0:0:0:0:0:0:0:1 #4/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:01:54] [Server thread/INFO]: BlueMap unloaded!
+[11:01:54] [Server thread/INFO]: Stopping server
+[11:01:54] [Server thread/INFO]: Saving players
+[11:01:54] [Server thread/INFO]: Saving worlds
+[11:01:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world-2024-12-10]'/minecraft:overworld
+[11:01:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world-2024-12-10]'/minecraft:the_end
+[11:01:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world-2024-12-10]'/minecraft:the_nether
+[11:01:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world-2024-12-10): All chunks are saved
+[11:01:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:01:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:01:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:01:55] [Server thread/INFO]: Thread RCON Listener stopped

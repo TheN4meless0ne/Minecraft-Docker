@@ -1,15 +1,5 @@
 {
   "render-threads-enabled": true,
-  "maps": {
-    "world_2024_12_10": {
-      "update-enabled": true
-    },
-    "world_2024_12_10_nether": {
-      "update-enabled": true
-    },
-    "world_2024_12_10_the_end": {
-      "update-enabled": true
-    }
-  },
+  "maps": {},
   "hidden-players": []
 }

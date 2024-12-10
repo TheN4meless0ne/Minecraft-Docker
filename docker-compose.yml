@@ -3,11 +3,11 @@ services:
     image: itzg/minecraft-server
     environment:
       EULA: "true"
-      MOTD: Running Minecraft version 1.21.1
+      MOTD: Running Minecraft version 1.21.4
       LEVEL: world-%date:yyyy-MM-dd%
-      TYPE: PAPER
+      TYPE: FABRIC
       MEMORY: 6G
-      VERSION: 1.21.1
+      VERSION: 1.21.4
       SEED: -363139536
       
       RCON_CMDS_STARTUP:  |-
@@ -15,11 +15,18 @@ services:
         pregen start 200
 
       MODRINTH_PROJECTS: |
-        axiom-paper-plugin
-        worldedit
+        fabric-api
+        cloth-config
+        lithium
+        ferrite-core
+        no-chat-reports
+        spark
+        axiom
         bluemap
-        sethome
-        wildrtp
+        better-stats
+        tcdcommons
+
+        VANILLATWEAKS_SHARECODE: 54Gte1
     ports:
       - "25565:25565"
       - "8100:8100"
