@@ -1,0 +1,31 @@
+services:
+  mc:
+    image: itzg/minecraft-server
+    environment:
+      EULA: "true"
+      MOTD: Running Minecraft version 1.21.1
+      LEVEL: world-%date:yyyy-MM-dd%
+      TYPE: PAPER
+      MEMORY: 6G
+      VERSION: 1.21.1
+      SEED: -363139536
+      
+      RCON_CMDS_STARTUP:  |-
+        op TheN4meless0ne
+        pregen start 200
+
+      MODRINTH_PROJECTS: |
+        axiom-paper-plugin
+        worldedit
+        bluemap
+        sethome
+        wildrtp
+    ports:
+      - "25565:25565"
+      - "8100:8100"
+    volumes:
+      - ./data:/data
+    stdin_open: true
+    tty: true
+volumes:
+  data: {}
