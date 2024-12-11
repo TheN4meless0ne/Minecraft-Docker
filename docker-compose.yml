@@ -25,8 +25,8 @@ services:
         bluemap
         better-stats
         tcdcommons
+        chunky
 
-      VANILLATWEAKS_SHARECODE: 54Gte1
     ports:
       - "25565:25565"
       - "8100:8100"
