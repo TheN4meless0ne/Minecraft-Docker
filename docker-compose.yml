@@ -6,7 +6,7 @@ services:
       MOTD: Running Minecraft version 1.21.4
       LEVEL: world-%date:yyyy-MM-dd%
       TYPE: FABRIC
-      MEMORY: 6G
+      MEMORY: 10G
       VERSION: 1.21.4
       SEED: -363139536
       
@@ -34,5 +34,6 @@ services:
       - ./data:/data
     stdin_open: true
     tty: true
+    restart: unless-stopped
 volumes:
   data: {}
