@@ -3,7 +3,7 @@ services:
     image: itzg/minecraft-server
     environment:
       EULA: "true"
-      MOTD: Running Minecraft version 1.21.4
+      MOTD: This is a test server running on Minecraft 1.21.4
       LEVEL: world-%date:yyyy-MM-dd%
       TYPE: FABRIC
       MEMORY: 10G
@@ -27,6 +27,7 @@ services:
         tcdcommons
         chunky
         factions
+        essential-commands
     ports:
       - "25565:25565"
       - "8100:8100"
